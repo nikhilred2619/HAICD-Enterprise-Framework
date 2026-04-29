@@ -1,0 +1,73 @@
+{
+  "experiment1": {
+    "flow": {
+      "accuracy": 0.7417,
+      "far": 0.0833,
+      "frr": 0.0,
+      "f1": 0.9,
+      "precision": 0.8182,
+      "recall": 1.0,
+      "manual_review_rate": 0.075,
+      "tp": 45,
+      "fp": 10,
+      "fn": 0,
+      "tn": 65
+    },
+    "haicd": {
+      "accuracy": 0.6333,
+      "far": 0.0,
+      "frr": 0.0,
+      "f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "manual_review_rate": 0.3667,
+      "tp": 50,
+      "fp": 0,
+      "fn": 0,
+      "tn": 70
+    },
+    "mcnemar": {
+      "b": 11,
+      "d": 24,
+      "chi2": 4.114,
+      "p_value": 0.042522
+    },
+    "n": 120
+  },
+  "experiment2": {
+    "flow": {
+      "accuracy": 0.389,
+      "far": 0.0,
+      "frr": 0.144,
+      "f1": 0.6604,
+      "precision": 1.0,
+      "recall": 0.493,
+      "manual_review_rate": 0.467,
+      "tp": 140,
+      "fp": 0,
+      "fn": 144,
+      "tn": 716
+    },
+    "haicd": {
+      "accuracy": 0.232,
+      "far": 0.0,
+      "frr": 0.082,
+      "f1": 0.7372,
+      "precision": 1.0,
+      "recall": 0.5838,
+      "manual_review_rate": 0.686,
+      "tp": 115,
+      "fp": 0,
+      "fn": 82,
+      "tn": 803
+    },
+    "mcnemar": {
+      "b": 29,
+      "d": 186,
+      "chi2": 113.191,
+      "p_value": 0.0
+    },
+    "frr_reduction_pct": 43.1,
+    "n": 1000
+  }
+}
