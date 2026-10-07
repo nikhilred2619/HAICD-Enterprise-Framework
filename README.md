@@ -8,7 +8,7 @@
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-3776ab?style=for-the-badge&logo=python)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
-[![Paper: IEEE Access](https://img.shields.io/badge/Paper-IEEE_Access-blue?style=for-the-badge)](https://orcid.org/0009-0006-7699-3928)
+[![Research: Manuscript](https://img.shields.io/badge/Research-Manuscript-blue?style=for-the-badge)](https://orcid.org/0009-0006-7699-3928)
 
 **Author:** Nikhil Reddy Donapati · Agentforce AI Specialist · Texas, USA  
 **ORCID:** [0009-0006-7699-3928](https://orcid.org/0009-0006-7699-3928)
@@ -44,7 +44,7 @@ HAICD solves this through **joint attribute inference** — the theoretical prop
 
 ---
 
-## Validated Performance
+## Experimental Results
 
 ```
 EXPERIMENT 1: Synthetic Adversarial Benchmark (N=120)
@@ -113,7 +113,7 @@ HAICD Five-Layer Architecture
 ## Quick Start
 
 ```bash
-git clone https://github.com/nikhildonapati/haicd-framework.git
+git clone https://github.com/nikhilred2619/HAICD-Enterprise-Framework.git
 cd haicd-framework
 pip install -r requirements.txt
 
@@ -232,9 +232,8 @@ haicd-framework/
   title   = {HAICD: A Hybrid AI-CRM Decisioning Framework for 
              Context-Aware Loan Risk Evaluation Using LLM-Based Reasoning},
   author  = {Donapati, Nikhil Reddy},
-  journal = {IEEE Access},
   year    = {2025},
-  note    = {Under Review},
+  note    = {Research manuscript},
   url     = {https://github.com/nikhildonapati/haicd-framework}
 }
 ```
